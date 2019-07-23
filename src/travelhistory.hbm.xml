@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+<class name="com.travelmate.hibernate.TravelHistory" table="travelhistory">
+<id column="ID" name="Id" type="integer" />
+<property column="UserName" name="UserName"  />
+<property column="TravelName" name="TravelName" />
+<property column="TravelLocation" name="TravelLocation"  />
+<property column="TravelStartDate" name="TravelStartDate" />
+<property column="TravelEndDate" name="TravelEndDate"  />
+<property column="ModeOfTransportation" name="ModeOfTransportation"  />
+<property column="TravelDetails" name="TravelDetails"  />
+<property column="TravellingWith" name="TravellingWith" />
+</class>
+</hibernate-mapping>

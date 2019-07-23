@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+<class name="com.travelmate.hibernate.User" table="user">
+<id column="Id" name="Id" />
+<property column="FirstName" name="FirstName"  />
+<property column="LastName" name="LastName"  />
+<property column="UserEmail" name="UserEmail" />
+<property column="ContactNumber" name="ContactNumber"  />
+<property column="UserName" name="UserName"  />
+<property column="UserPassword" name="UserPassword" />
+<property column="SecurityQuestion" name="SecurityQuestion" />
+<property column="SecurityAnswer" name="SecurityAnswer"  />
+<property column="UserGender" name="UserGender"  />
+<property column="UserProfilePic" name="UserProfilePic" />
+
+</class>
+</hibernate-mapping>
